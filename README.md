@@ -1,22 +1,9 @@
-# A starter webpack project for React with databases
+# Front End test for Springload
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
+I started out with an EDA boilerplate, just so that I didn't waste any time on the scaffolding. I also chose to use Material-UI because I'm familiar with it and didn't want to get bogged down in minor CSS changes on such a short timeframe, because I know I'm partial to fretting over details (see below!).
 
-* Use as template or fork this repo
-* Rename your repo according to the app you're building
+An extra benefit of using Material-UI is that it handles some basic accessibility and browser support straight out of the box.
 
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && npm i
-```
+I took a little over 2 hours, because I spent a bunch of time focussed on why the Animals label wouldn't line up with the rest of them, before deciding that it was more important that it validates than lined up.
 
-To initialise your database
-```
-npm run knex migrate:latest
-npm run knex seed:run
-```
-
-To start the development server with a watcher that rebuilds your code
-```sh
-npm run dev
-``` 
+It's useable on a mobile screen, but not truly responsive because the font is tiny, and I didn't get time to do any testing.
